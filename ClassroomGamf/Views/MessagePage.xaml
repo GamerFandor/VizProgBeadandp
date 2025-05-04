@@ -6,10 +6,9 @@
       xmlns:local="clr-namespace:ClassroomGamf.Views"
       Title="MessagePage" MinHeight="60" Background="White">
 
-    <Grid>
+    <Grid >
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
