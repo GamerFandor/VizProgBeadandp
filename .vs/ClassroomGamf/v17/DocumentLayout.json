@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ClassroomGamf\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC7F0A82-DC4E-4F11-B64B-C628DAD76E08}|ClassroomGamf\\ClassroomGamf.csproj|e:\\classroomgamf\\classroomgamf\\views\\messagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DC7F0A82-DC4E-4F11-B64B-C628DAD76E08}|ClassroomGamf\\ClassroomGamf.csproj|solutionrelative:classroomgamf\\views\\messagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC7F0A82-DC4E-4F11-B64B-C628DAD76E08}|ClassroomGamf\\ClassroomGamf.csproj|e:\\classroomgamf\\classroomgamf\\views\\messagepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{DC7F0A82-DC4E-4F11-B64B-C628DAD76E08}|ClassroomGamf\\ClassroomGamf.csproj|solutionrelative:classroomgamf\\views\\messagepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC7F0A82-DC4E-4F11-B64B-C628DAD76E08}|ClassroomGamf\\ClassroomGamf.csproj|e:\\classroomgamf\\classroomgamf\\views\\homepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{DC7F0A82-DC4E-4F11-B64B-C628DAD76E08}|ClassroomGamf\\ClassroomGamf.csproj|solutionrelative:classroomgamf\\views\\homepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC7F0A82-DC4E-4F11-B64B-C628DAD76E08}|ClassroomGamf\\ClassroomGamf.csproj|e:\\classroomgamf\\classroomgamf\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{DC7F0A82-DC4E-4F11-B64B-C628DAD76E08}|ClassroomGamf\\ClassroomGamf.csproj|solutionrelative:classroomgamf\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC7F0A82-DC4E-4F11-B64B-C628DAD76E08}|ClassroomGamf\\ClassroomGamf.csproj|e:\\classroomgamf\\classroomgamf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DC7F0A82-DC4E-4F11-B64B-C628DAD76E08}|ClassroomGamf\\ClassroomGamf.csproj|solutionrelative:classroomgamf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessagePage.xaml.cs",
+              "DocumentMoniker": "E:\\ClassroomGamf\\ClassroomGamf\\Views\\MessagePage.xaml.cs",
+              "RelativeDocumentMoniker": "ClassroomGamf\\Views\\MessagePage.xaml.cs",
+              "ToolTip": "E:\\ClassroomGamf\\ClassroomGamf\\Views\\MessagePage.xaml.cs",
+              "RelativeToolTip": "ClassroomGamf\\Views\\MessagePage.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswBsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:53:20.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessagePage.xaml",
+              "DocumentMoniker": "E:\\ClassroomGamf\\ClassroomGamf\\Views\\MessagePage.xaml",
+              "RelativeDocumentMoniker": "ClassroomGamf\\Views\\MessagePage.xaml",
+              "ToolTip": "E:\\ClassroomGamf\\ClassroomGamf\\Views\\MessagePage.xaml",
+              "RelativeToolTip": "ClassroomGamf\\Views\\MessagePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-04T17:53:14.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "E:\\ClassroomGamf\\ClassroomGamf\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "ClassroomGamf\\Views\\HomePage.xaml.cs",
+              "ToolTip": "E:\\ClassroomGamf\\ClassroomGamf\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "ClassroomGamf\\Views\\HomePage.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:50:03.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\ClassroomGamf\\ClassroomGamf\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClassroomGamf\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\ClassroomGamf\\ClassroomGamf\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ClassroomGamf\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:45:54.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\ClassroomGamf\\ClassroomGamf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ClassroomGamf\\MainWindow.xaml",
+              "ToolTip": "E:\\ClassroomGamf\\ClassroomGamf\\MainWindow.xaml",
+              "RelativeToolTip": "ClassroomGamf\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-04T17:38:39.665Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

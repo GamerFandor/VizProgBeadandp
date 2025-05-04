@@ -1,0 +1,25 @@
+﻿<Page x:Class="ClassroomGamf.Views.RegisterPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="RegisterPage">
+
+    <Grid Background="White">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
+            <TextBlock Text="Regisztráció" FontSize="24" FontWeight="Bold" TextAlignment="Center" Margin="0,0,0,20"/>
+
+            <TextBlock Text="Felhasználónév" FontSize="12" TextAlignment="Left" Margin="10,0,10,5"/>
+            <TextBox x:Name="UsernameTextBox" Margin="10,0,10,5"/>
+            <TextBlock Text="Email" FontSize="12" TextAlignment="Left" Margin="10,0,10,5"/>
+            <TextBox x:Name="EmailTextBox" Margin="10,0,10,5"/>
+            <TextBlock Text="Jelszó" FontSize="12" TextAlignment="Left" Margin="10,0,10,5"/>
+            <PasswordBox x:Name="PasswordBox" Margin="10,0,10,5"/>
+            <TextBlock Text="Jelszó újra" FontSize="12" TextAlignment="Left" Margin="10,0,10,5"/>
+            <PasswordBox x:Name="ConfirmPasswordBox" Margin="10,0,10,5"/>
+
+            <Button Content="Regisztráció" Click="Register_Click" Margin="0,20,0,0" />
+
+            <TextBlock Text="Már van fiókod?" HorizontalAlignment="Center"/>
+            <Button Content="Bejelentkezés" Click="GoToLogin_Click" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}"/>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,114 @@
+﻿<Page x:Class="ClassroomGamf.Views.MessagePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ClassroomGamf.Views"
+      Title="MessagePage" MinHeight="60" Background="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel VerticalAlignment="Center" Background="#2C3E50">
+            <!-- Vissza nyíl -->
+            <Button Content="←"
+                Width="30" Height="30"
+                Margin="10,0"
+                Click="BackButton_Click"
+                DockPanel.Dock="Left" />
+
+            <!-- Csoportnév -->
+            <TextBlock x:Name="GroupNameText"
+                   Text="Group Name"
+                   Foreground="White"
+                   FontSize="16"
+                   FontWeight="Bold"
+                   Margin="10,0"
+                   VerticalAlignment="Center"
+                   DockPanel.Dock="Left" />
+
+            <!-- Navigációs gombok -->
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" DockPanel.Dock="Left">
+                <Button Click="FeedButton_Click" Content="Feed" Margin="5,0"/>
+                <Button Click="AssignmentButton_Click" Content="Assignments" Margin="5,0"/>
+                <Button Content="Message Teachers" Margin="5,0"/>
+            </StackPanel>
+
+            <!-- Jobb oldali profil gomb -->
+            <Button Content="👤"
+                Width="30" Height="30"
+                HorizontalAlignment="Right"
+                Margin="0,0,10,0"
+                DockPanel.Dock="Right"
+                ToolTip="Felhasználói fiók"
+                Click="UserButton_Click"/>
+        </DockPanel>
+
+
+        <ScrollViewer Grid.Row="1">
+            <StackPanel Margin="20">
+                <!-- Banner Kép -->
+                <Image Source="/Assets/feed.jpg"
+               Stretch="UniformToFill"
+               Height="200"
+               Margin="0,0,0,20"/>
+
+                <!-- Dummy Post -->
+                <Border Background="#EFEFEF"
+                Padding="15"
+                CornerRadius="10">
+                    <StackPanel>
+                        <TextBlock Text="Kérdés"
+                           FontSize="18"
+                           FontWeight="Bold"
+                           Margin="0,0,0,5"/>
+
+                        <TextBlock Text="Diák • 2025.05.02"
+                           FontStyle="Italic"
+                           Foreground="Gray"
+                           Margin="0,0,0,10"/>
+
+                        <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                           TextWrapping="Wrap"
+                           Margin="0,0,0,10"/>
+
+                        <!-- Komment -->
+                        <Border Background="#FFFFFF"
+                        BorderBrush="#CCC"
+                        BorderThickness="1"
+                        Padding="10"
+                        CornerRadius="5">
+                            <StackPanel>
+                                <TextBlock Text="💬 Tanár • 2025.05.02"
+                                   FontWeight="Bold"
+                                   Foreground="DarkSlateGray"
+                                   Margin="0,0,0,5"/>
+                                <TextBlock Text="Lorem ipsum comment text goes here. Ut enim ad minim veniam."
+                                   TextWrapping="Wrap"/>
+                            </StackPanel>
+                        </Border>
+                        <Border Background="#FFFFFF"
+                                BorderBrush="#CCC"
+                                BorderThickness="1"
+                                Padding="10"
+                                Margin="0,10,0,0"
+                                CornerRadius="5">
+                            <StackPanel>
+                                <TextBlock Text="💬 Diák • 2025.05.02"
+                                           FontWeight="Bold"
+                                           Foreground="DarkSlateGray"
+                                           Margin="0,0,0,5"/>
+                                <TextBlock Text="Lorem ipsum comment text goes here. Ut enim ad minim veniam."
+                                            TextWrapping="Wrap"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
